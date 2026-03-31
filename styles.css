@@ -89,13 +89,7 @@ input{
     animation: spinFlip 4s infinite ease-in-out;
     transform-style: preserve-3d;
   }
-  .main-box::before{
-    content: '';
-    background-color: blue; 
-    font-weight: bold; 
-    position: absolute;
-    width: 100%; 
-  }
+
 
   @keyframes spinFlip {
     0% {
